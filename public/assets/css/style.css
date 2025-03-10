@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    width: 20vw;
+    background-color: #363740;
+}
+
+section {
+    display: flex;
+    width: 80vw;
+    height: 44px;
+    align-items: center;
+    gap: 20px;
+    background-color: #F7F8FC;
+}
+
