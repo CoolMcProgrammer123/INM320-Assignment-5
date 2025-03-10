@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Love+Ya+Like+A+Sister&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
     display: flex;
     height: 100vh;
 }
 
 nav {
-    width: 20vw;
+    width: 255px;
     background-color: #363740;
 }
 
@@ -15,11 +17,30 @@ nav > h4{
 #activenav{
     color: #DDE2FF;
 }
-
-.nav-link{
-    color: #A4A6B3;
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.nav-link{
+    height: 56px;
+    color: #A4A6B3;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    
+}
+.hr{
+    width: 255px;
+    border: 1px solid #DFE0EB;
+}
 section {
     display: flex;
     width: 80vw;
