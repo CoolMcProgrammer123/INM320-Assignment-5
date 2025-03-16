@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Love+Ya+Like+A+Sister&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 
 body {
     display: flex;
     height: 100vh;
 }
 
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 nav {
     width: 255px;
     background-color: #363740;
@@ -22,7 +27,7 @@ nav {
 .dashboard>h4 {
     color: #A4A6B3;
     opacity: 0.7;
-    font-family: Mulish;
+    font-family: Muli;
     font-weight: 700;
     font-size: 19px;
     line-height: 100%;
@@ -59,7 +64,7 @@ nav>ul>li>svg {
 .nav-link {
     height: 56px;
     color: #A4A6B3;
-    font-family: Mulish;
+    font-family: Muli;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -83,32 +88,112 @@ nav>ul>li>svg {
     width: 83.3vw;
     height: 100vh;
     padding: 10px;
+    padding-top: 40px;
     gap: 20px;
     background-color: #F7F8FC;
+    
 
 }
 
 #overview div {
     display: flex;
+    justify-content: space-between;
     width: 80vw;
     height: 44px;
     
     align-items: center;
-    gap: 20px;
+    /* gap: 750px; */
     background-color: #F7F8FC;
 
-    margin-top: 30px;
-    margin-right: 30px;
+
 }
+#overview div div{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+}
+
 
 #overview h1 {
      
-    width: 40vw;
+    /* width: 40vw; */
 
-    font-family: Mulish;
+    font-family: Muli;
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0.3px;
+
+
+    margin-left: 20px;
  
+}
+#overview img{
+    border-radius: 50%;
+    border: 2px solid #F7F8FC; 
+    outline: 2px solid #DFE0EB; 
+   
+}
+
+#overview p{
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: right;
+
+    margin: 0;
+    border-left: 2px solid #DFE0EB;
+    padding-left: 30px;
+    height: 32px;
+    line-height: 32px;
+
+}
+
+/* cards */
+.row{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 30px;
+    margin-right: 33px;
+}
+.col-sm-6{
+    width: 258px;
+    height: 134px;
+}
+.card{
+    border-width: 1px;
+    border-radius: 8px;
+    border: 1px solid #DFE0EB
+
+}
+#cardhighlight{
+    border: 1px solid #3751FF;
+    box-shadow: 0px 0px 3px 0px #3751FF;;
+    
+}
+#highlight{
+    color: #3751FF;
+}
+.card-text{
+    font-family: Muli;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 100%;
+    letter-spacing: 0.4px;
+    text-align: center;
+
+}
+
+.card-title{
+    font-family: Muli;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+
 }
