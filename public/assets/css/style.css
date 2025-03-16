@@ -2,10 +2,12 @@
 
 body {
     display: flex;
-    height: 100vh;
+    height: auto;
+    overflow-x: hidden;
 }
 
 #main{
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -13,6 +15,7 @@ body {
     background-color: #F7F8FC;
 }
 nav {
+    height: auto;
     width: 255px;
     background-color: #363740;
 }
@@ -88,9 +91,8 @@ nav>ul>li>svg {
 #overview {
     display: flex;
     width: 83.3vw;
-    height: 100vh;
-    padding: 10px;
-    padding-top: 40px;
+    height: 96px;
+    padding: 40px 33px 10px 10px;
     gap: 20px;
     background-color: #F7F8FC;
     
@@ -100,12 +102,13 @@ nav>ul>li>svg {
 #overview div {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 82.6vw;
     height: 44px;
     
     align-items: center;
     /* gap: 750px; */
     background-color: #F7F8FC;
+    padding-right: 15px;
 
 
 }
@@ -157,8 +160,8 @@ nav>ul>li>svg {
     display: flex;
     justify-content: space-between;
 
-    margin-left: 30px;
-    margin-right: 33px;
+    margin-left: 20px;
+    margin-right: 40px;
 }
 .col-sm-6{
     width: 258px;
@@ -211,16 +214,34 @@ nav>ul>li>svg {
 }
 
 /* graph */
-.graphcontainer{
-    width: 1px;
-    height: 546px;
+
+
+#graph div{
+    width: 1211px;
+    height: 546px ;
+    border-radius: 8px;
+    border-width: 1px;
+
+    margin-left: 16px;
+}
+
+/* tickets & tasks */
+#last{
+    display: flex;
+    gap: 30px;
+
+    margin-left: 31px;
+  
+}
+
+#last .card{
+    width: 590px;
+    height: 336px;
+}
+
+#last .card-body{
+    width: 590px;
+    height: 336px;
     border-width: 1px;
     border-radius: 8px;
-
-    margin-left: 30px;
-    margin-right: 33px;
-
-    color: #ffffff;
-
-
 }
