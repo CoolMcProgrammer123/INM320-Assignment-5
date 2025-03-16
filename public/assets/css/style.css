@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    background-color: #F7F8FC;
 }
 nav {
     width: 255px;
@@ -116,8 +118,6 @@ nav>ul>li>svg {
 
 
 #overview h1 {
-     
-    /* width: 40vw; */
 
     font-family: Muli;
     font-weight: 700;
@@ -165,6 +165,8 @@ nav>ul>li>svg {
     height: 134px;
 }
 .card{
+    width: 258px;
+    height: 134px;
     border-width: 1px;
     border-radius: 8px;
     border: 1px solid #DFE0EB
@@ -178,13 +180,24 @@ nav>ul>li>svg {
 #highlight{
     color: #3751FF;
 }
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .card-text{
     font-family: Muli;
     font-weight: 700;
     font-size: 19px;
-    line-height: 100%;
     letter-spacing: 0.4px;
     text-align: center;
+    color: #9FA2B4;
+
+    top: 24px;
+    left: 32px;
+
 
 }
 
@@ -192,8 +205,22 @@ nav>ul>li>svg {
     font-family: Muli;
     font-weight: 700;
     font-size: 40px;
-    line-height: 100%;
     letter-spacing: 1px;
     text-align: center;
+
+}
+
+/* graph */
+.graphcontainer{
+    width: 1px;
+    height: 546px;
+    border-width: 1px;
+    border-radius: 8px;
+
+    margin-left: 30px;
+    margin-right: 33px;
+
+    color: #ffffff;
+
 
 }
