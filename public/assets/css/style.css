@@ -7,11 +7,13 @@ body {
 }
 
 #main{
+    
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding-bottom: 30px;
+    padding-right: 33px;
 
     background-color: #F7F8FC;
 }
@@ -216,6 +218,9 @@ nav>ul>li>svg {
 
 /* graph */
 
+#graph{
+    width: 1211px;
+}
 
 #graph div{
     width: 1211px;
