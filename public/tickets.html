@@ -17,7 +17,7 @@
 
 <body>
     <nav>
-        <!-- Dashboard stuff? -->
+        <!-- Dashboard stuff -->
         <div class="dashboard">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="16" cy="16" r="16" fill="#3751FF"/>
@@ -32,19 +32,19 @@
             <h4>Dashboard Kit</h4>
         </div>
         
-        <!-- nav icons and text -->
+        <!-- Navbar, Active = Tickets -->
         <ul class="nav flex-column" id="navcolumns">
-            <li class="nav-item" id="activeitem">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.5232 8.94116H8.54412L13.1921 13.5891C13.3697 13.7667 13.6621 13.7812 13.8447 13.6091C14.9829 12.5367 15.7659 11.0912 15.9956 9.46616C16.035 9.18793 15.8041 8.94116 15.5232 8.94116ZM15.0576 7.03528C14.8153 3.52176 12.0076 0.714119 8.49412 0.471767C8.22589 0.453237 8 0.679413 8 0.948236V7.5294H14.5815C14.8503 7.5294 15.0762 7.30352 15.0576 7.03528ZM6.58824 8.94116V1.96206C6.58824 1.68118 6.34147 1.45029 6.06353 1.48971C2.55853 1.985 -0.120585 5.04705 0.00412089 8.71675C0.132356 12.4856 3.37736 15.5761 7.14794 15.5288C8.6303 15.5103 10 15.0326 11.1262 14.2338C11.3585 14.0691 11.3738 13.727 11.1724 13.5256L6.58824 8.94116Z" fill="#DDE2FF"/>
-                </svg>        
-                <a id="activenav" class="nav-link active" aria-current="page" href="index.html">Overview</a>
-            </li>
             <li class="nav-item">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.4" d="M15.5232 8.94116H8.54412L13.1921 13.5891C13.3697 13.7667 13.6621 13.7812 13.8447 13.6091C14.9829 12.5367 15.7659 11.0912 15.9956 9.46616C16.035 9.18793 15.8041 8.94116 15.5232 8.94116ZM15.0576 7.03528C14.8153 3.52176 12.0076 0.714119 8.49412 0.471767C8.22589 0.453237 8 0.679413 8 0.948236V7.5294H14.5815C14.8503 7.5294 15.0762 7.30352 15.0576 7.03528ZM6.58824 8.94116V1.96206C6.58824 1.68118 6.34147 1.45029 6.06353 1.48971C2.55853 1.985 -0.120585 5.04705 0.00412089 8.71675C0.132356 12.4856 3.37736 15.5761 7.14794 15.5288C8.6303 15.5103 10 15.0326 11.1262 14.2338C11.3585 14.0691 11.3738 13.727 11.1724 13.5256L6.58824 8.94116Z" fill="#9FA2B4"/>
+                </svg>                            
+                <a class="nav-link" href="index.html">Overview</a>
+            </li>
+            <li class="nav-item" id="activeitem">
                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.4" d="M3.55556 3.33334H12.4444V8.66667H3.55556V3.33334ZM14.6667 6C14.6667 6.73639 15.2636 7.33334 16 7.33334V10C16 10.7364 15.4031 11.3333 14.6667 11.3333H1.33333C0.596944 11.3333 0 10.7364 0 10V7.33334C0.736389 7.33334 1.33333 6.73639 1.33333 6C1.33333 5.26362 0.736389 4.66667 0 4.66667V2.00001C0 1.26362 0.596944 0.666672 1.33333 0.666672H14.6667C15.4031 0.666672 16 1.26362 16 2.00001V4.66667C15.2636 4.66667 14.6667 5.26362 14.6667 6ZM13.3333 3.11112C13.3333 2.74292 13.0349 2.44445 12.6667 2.44445H3.33333C2.96514 2.44445 2.66667 2.74292 2.66667 3.11112V8.88889C2.66667 9.25709 2.96514 9.55556 3.33333 9.55556H12.6667C13.0349 9.55556 13.3333 9.25709 13.3333 8.88889V3.11112Z" fill="#9FA2B4"/>
-                </svg>                    
-                <a class="nav-link" href="tickets.html">Tickets</a>
+                    <path d="M3.55556 3.33329H12.4444V8.66663H3.55556V3.33329ZM14.6667 5.99996C14.6667 6.73635 15.2636 7.33329 16 7.33329V9.99996C16 10.7363 15.4031 11.3333 14.6667 11.3333H1.33333C0.596944 11.3333 0 10.7363 0 9.99996V7.33329C0.736389 7.33329 1.33333 6.73635 1.33333 5.99996C1.33333 5.26357 0.736389 4.66663 0 4.66663V1.99996C0 1.26357 0.596944 0.666626 1.33333 0.666626H14.6667C15.4031 0.666626 16 1.26357 16 1.99996V4.66663C15.2636 4.66663 14.6667 5.26357 14.6667 5.99996ZM13.3333 3.11107C13.3333 2.74288 13.0349 2.4444 12.6667 2.4444H3.33333C2.96514 2.4444 2.66667 2.74288 2.66667 3.11107V8.88885C2.66667 9.25704 2.96514 9.55551 3.33333 9.55551H12.6667C13.0349 9.55551 13.3333 9.25704 13.3333 8.88885V3.11107Z" fill="#DDE2FF"/>
+                </svg>                                     
+                <a id="activenav" class="nav-link active" aria-current="page" href="tickets.html">Tickets</a>
             </li>
             <li class="nav-item">
                 <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,72 +86,36 @@
           </ul>
     </nav>
     <div id="main">
-        <!-- overview -->
-        <section id="overview">
+        <section id="tickets">
             <div>
-                <h1>Overview</h1>
-    
-                <!-- Some space somehow -->
+                <!-- Title -->
+                <h1>Tickets</h1>
+
                 <div>
                     <!-- Search Icon -->
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="6.5" cy="6.5" r="5.75" stroke="#C5C7CD" stroke-width="1.5" />
-                    <path d="M11 11L15 15" stroke="#C5C7CD" stroke-width="1.5" stroke-linecap="round" />
-                </svg>
-    
-                <!-- Notification Icon -->
-                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M7.99999 19C9.10374 19 9.99905 18.1047 9.99905 17H6.00093C6.00093 18.1047 6.89624 19 7.99999 19ZM14.7309 14.3216C14.1272 13.6728 12.9975 12.6969 12.9975 9.5C12.9975 7.07188 11.295 5.12812 8.99937 4.65125V4C8.99937 3.44781 8.55187 3 7.99999 3C7.44812 3 7.00062 3.44781 7.00062 4V4.65125C4.70499 5.12812 3.00249 7.07188 3.00249 9.5C3.00249 12.6969 1.8728 13.6728 1.26905 14.3216C1.08155 14.5231 0.998429 14.7641 0.999991 15C1.00343 15.5125 1.40562 16 2.00312 16H13.9969C14.5944 16 14.9969 15.5125 15 15C15.0016 14.7641 14.9184 14.5228 14.7309 14.3216Z"
-                        fill="#C5C7CD" />
-                    <circle cx="13" cy="5" r="3.75" fill="#3751FF" stroke="#F7F8FC" stroke-width="1.5" />
-                </svg>
-                <p>Jones Ferdinand</p>
-    
-                <img src="assets/images/Jones Ferdinand.png" alt="Jones Ferdinand Portrait Headshot">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="6.5" cy="6.5" r="5.75" stroke="#C5C7CD" stroke-width="1.5" />
+                        <path d="M11 11L15 15" stroke="#C5C7CD" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+        
+                    <!-- Notification Icon -->
+                    <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.99999 19C9.10374 19 9.99905 18.1047 9.99905 17H6.00093C6.00093 18.1047 6.89624 19 7.99999 19ZM14.7309 14.3216C14.1272 13.6728 12.9975 12.6969 12.9975 9.5C12.9975 7.07188 11.295 5.12812 8.99937 4.65125V4C8.99937 3.44781 8.55187 3 7.99999 3C7.44812 3 7.00062 3.44781 7.00062 4V4.65125C4.70499 5.12812 3.00249 7.07188 3.00249 9.5C3.00249 12.6969 1.8728 13.6728 1.26905 14.3216C1.08155 14.5231 0.998429 14.7641 0.999991 15C1.00343 15.5125 1.40562 16 2.00312 16H13.9969C14.5944 16 14.9969 15.5125 15 15C15.0016 14.7641 14.9184 14.5228 14.7309 14.3216Z"
+                            fill="#C5C7CD" />
+                        <circle cx="13" cy="5" r="3.75" fill="#3751FF" stroke="#F7F8FC" stroke-width="1.5" />
+                    </svg>
+
+                    <!-- Name -->
+                    <p>Jones Ferdinand</p>
+        
+                    <img src="assets/images/Jones Ferdinand.png" alt="Jones Ferdinand Portrait Headshot">
                 </div> 
             </div>
         </section>
 
-        <!-- cards -->
-        <section class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                    <p class="card-text">Unresolved</p>
-                    <h5 class="card-title">60</h5>                  
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6" >
-              <div class="card" id="cardhighlight">
-                <div class="card-body">
-                    <p class="card-text" id="highlight">Overdue</p>
-                    <h5 class="card-title" id="highlight">16</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <p class="card-text">Open</p>
-                    <h5 class="card-title">43</h5>
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <p class="card-text">On Hold</p>
-                    <h5 class="card-title">64</h5>
-                  </div>
-                </div>
-            </div>
-              
-        </section>
-
         <!-- Take a look at this, makes a box as wide as the parent with margins on left and right -->
-        <div class="container">
+        <!-- <div class="container">
             <div class="card w-100 p-0">
                 <div class="container text-center">
                     <div id="graph">
@@ -264,6 +228,7 @@
                             </defs>
                         </svg>                            
                     </div>
+
                     <div>
                         <div class="card" style="width: 25rem;" id="listgraph">
                             <ul class="list-group list-group-flush" style="width: 25rem;">
@@ -291,25 +256,39 @@
                             </ul>
                         </div>
                     </div>
+
                 </div>
+            </div>
+        </div> -->
+        
+        <div class="container">
+            <div class="card w-100">
+
+                <section id="filtersheader">
+                    <div>
+                        <h5>All Tickets</h5>
+                    </div>
+
+                    <div id="sort-filter">
+                        <div class="filtering">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.12857 4.26839L3.31563 2.12548C3.48647 1.95815 3.7636 1.9582 3.93434 2.12548L6.12132 4.26839C6.39667 4.53812 6.20059 5.00001 5.81195 5.00001H4.5V13.5714C4.5 13.8081 4.30414 14 4.0625 14H3.1875C2.94586 14 2.75 13.8081 2.75 13.5714V5.00001H1.43794C1.04853 5.00001 0.853791 4.53758 1.12857 4.26839ZM7.5625 3.7143H14.5625C14.8041 3.7143 15 3.52243 15 3.28573V2.42858C15 2.19188 14.8041 2.00001 14.5625 2.00001H7.5625C7.32086 2.00001 7.125 2.19188 7.125 2.42858V3.28573C7.125 3.52243 7.32086 3.7143 7.5625 3.7143ZM7.125 6.71429V5.85715C7.125 5.62045 7.32086 5.42858 7.5625 5.42858H12.8125C13.0541 5.42858 13.25 5.62045 13.25 5.85715V6.71429C13.25 6.951 13.0541 7.14287 12.8125 7.14287H7.5625C7.32086 7.14287 7.125 6.951 7.125 6.71429ZM7.125 13.5714V12.7143C7.125 12.4776 7.32086 12.2857 7.5625 12.2857H9.3125C9.55414 12.2857 9.75 12.4776 9.75 12.7143V13.5714C9.75 13.8081 9.55414 14 9.3125 14H7.5625C7.32086 14 7.125 13.8081 7.125 13.5714ZM7.125 10.1429V9.28572C7.125 9.04901 7.32086 8.85715 7.5625 8.85715H11.0625C11.3041 8.85715 11.5 9.04901 11.5 9.28572V10.1429C11.5 10.3796 11.3041 10.5714 11.0625 10.5714H7.5625C7.32086 10.5714 7.125 10.3796 7.125 10.1429Z" fill="#C5C7CD"/>
+                            </svg>                                
+                            <p>Sort</p>
+                        </div>
+                        <div class="filtering">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.4369 0H0.563154C0.0635131 0 -0.188604 0.606234 0.165419 0.960258L4.5 5.29549V10.125C4.5 10.3085 4.58955 10.4805 4.73993 10.5858L6.61493 11.8979C6.98484 12.1568 7.5 11.8944 7.5 11.437V5.29549L11.8347 0.960258C12.188 0.606937 11.9376 0 11.4369 0Z" fill="#C5C7CD"/>
+                            </svg>                                
+                            <p>Filter</p>
+                        </div>
+                    </div>
+
+                </section>
+
             </div>
         </div>
-        <!-- tickets & tasks -->
-        <section id="last">
-            <div class="card w-100 p-0">
-                <div class="card-body">
-                    <p class="card-text">Unresolved</p>
-                    <h5 class="card-title">60</h5>                  
-                </div>
-            </div>
-            <div class="card w-100 p-0">
-                <div class="card-body">
-                    <p class="card-text">Unresolved</p>
-                    <h5 class="card-title">60</h5>                  
-                </div>
-            </div>
-        </section>
-        
+
     </div>
 
     
