@@ -237,6 +237,7 @@ nav>ul>li>svg {
     justify-content: left;
 }
 #graphinfo{
+    height: 70px;
     display:flex;
     flex-direction: row;
     
@@ -276,7 +277,7 @@ nav>ul>li>svg {
 }
 
 .container svg{
-    margin: 134px 0px 32px 32px;
+    margin: 32px 0px 32px 32px;
 }
 .container li{
     padding: 28px 32px 24px 32px;
