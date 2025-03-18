@@ -219,17 +219,23 @@ nav>ul>li>svg {
 }
 .container div{
     height: 546px;
+    
+
 }
 .container div div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+     
 }
 
 .container .card{
     border: none;
     outline: 1px solid #DFE0EB;
-    border-radius: 0px;
+    border-radius: 8px;
+}
+#listgraph{
+    border-radius: 0px 8px 8px 0px;
 }
 #graph{
     display: flex;
