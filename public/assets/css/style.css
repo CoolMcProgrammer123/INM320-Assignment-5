@@ -220,7 +220,43 @@ nav>ul>li>svg {
 .container div{
     height: 546px;
 }
+.container div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.container .card{
+    border: none;
+    outline: 1px solid #DFE0EB;
+    border-radius: 0px;
+}
+.container li{
+    padding: 28px 32px 24px 32px;
+    gap: 1px;
+}
+.container p{
+    font-family: Muli;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-bottom: 4px;
+    margin: 0;
+
+}
+.container h5{
+    font-family: Muli;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-top: 4px;
+    margin: 0;
+
+}
 
 /* tickets & tasks */
 #last{
