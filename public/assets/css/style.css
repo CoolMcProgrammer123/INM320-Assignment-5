@@ -329,11 +329,12 @@ nav>ul>li>svg {
 }
 
 #last .card{
-    height: 336px;
+    /* height: 336px; */
+    height: 100%;
 }
 
 #last .card-header{  
-    width: 100%;
+    /* width: 100%;
     border-width: 1px;
     border-radius: 8px;
 
@@ -344,23 +345,23 @@ nav>ul>li>svg {
     justify-content: space-between;
     background-color: #00000000;
     border: 0;
-    padding: 0;
-}
-
-#last .card-body{  
-    height: 336px;
-    border-width: 1px;
-    border-radius: 8px;
+    padding: 0; */
 
     align-items: flex-start;
-    margin: 16px 16px 0px 16px;
-
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    background-color: #00000000;
+    margin: 32px 32px 16px 32px;
+    padding: 0;
+    border: 0;
 }
 
-.card-body a {
+#last .card-header p {
+    margin-bottom: 0;
+}
+
+#last .card-header a {
     font-family: Muli;
     font-weight: 600;
     font-size: 14px;
@@ -371,7 +372,7 @@ nav>ul>li>svg {
     color: #3751FF;
 }
 
-.card-body span {
+#last .card-header span {
     font-weight: 600;
     color: #4B506D;
 }
@@ -399,9 +400,17 @@ nav>ul>li>svg {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 32px;
     height: 58px;
     align-items: center;
+}
+
+#last li:last-child {
+    border-radius: 8px;
+}
+
+#last .list-group {
+    border-top: 0;
 }
 
 /* Don't mind me, remove please! */
