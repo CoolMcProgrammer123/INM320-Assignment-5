@@ -271,7 +271,7 @@ nav>ul>li>svg {
 }
 
 /* Targets the headers of graph and last sections */
-#headgraph h5, #last h5{ 
+#headgraph h5, #last .card-header h5{ 
     font-family: Muli;
     font-weight: 700;
     font-size: 19px;
@@ -333,7 +333,6 @@ nav>ul>li>svg {
 }
 
 #last .card-header{  
-    height: 336px;
     width: 100%;
     border-width: 1px;
     border-radius: 8px;
@@ -377,8 +376,35 @@ nav>ul>li>svg {
     color: #4B506D;
 }
 
+.ticket-num {
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    margin: 0;
+}
+
+.ticket-name {
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+#last li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    height: 58px;
+    align-items: center;
+}
 
 /* Don't mind me, remove please! */
 * {
-    outline: 1px dashed rgba(255, 0, 0, 0.336) ;
+    /* outline: 1px dashed rgba(255, 0, 0, 0.336) ; */
 }
