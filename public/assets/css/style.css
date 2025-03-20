@@ -236,17 +236,22 @@ nav>ul>li>svg {
     height: 134px;
     border-width: 1px;
     border-radius: 8px;
-    border: 1px solid #DFE0EB
+    border: 1px solid #DFE0EB;
+
+    transition: box-shadow 0.3s ease-in-out;
 
 }
-#cardhighlight{
+.card:hover{
     border: 1px solid #3751FF;
-    box-shadow: 0px 0px 3px 0px #3751FF;;
-    
+    box-shadow: 0px 0px 3px 0px #3751FF;
 }
-#highlight{
+
+.card:hover .card-text,
+.card:hover .card-title {
     color: #3751FF;
+    transition: color 0.3s ease-in-out;
 }
+
 
 .card-body{
     display: flex;
