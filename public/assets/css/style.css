@@ -465,6 +465,15 @@ nav>ul>li>svg {
     color: #9FA2B4 !important;
 }
 
+#last .view-more {  
+    border-bottom: 2px solid #00000000;
+    transition: all 0.4s ease-in-out;
+}
+
+#last .view-more:hover {
+    border-bottom: 2px solid #3751FF;
+}
+
 /* Don't mind me, remove please! */
 * {
     /* outline: 1px dashed rgba(255, 0, 0, 0.336) ; */
