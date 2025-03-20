@@ -269,7 +269,9 @@ nav>ul>li>svg {
     top: 32px;
 
 }
-#headgraph h5{
+
+/* Targets the headers of graph and last sections */
+#headgraph h5, #last h5{ 
     font-family: Muli;
     font-weight: 700;
     font-size: 19px;
@@ -277,7 +279,9 @@ nav>ul>li>svg {
     letter-spacing: 0.4px;
 
 }
-#headgraph p{
+
+/* Targets the headers of graph and last sections */
+#headgraph p, #last p{
     font-family: Muli;
     font-weight: 400;
     font-size: 12px;
@@ -317,7 +321,7 @@ nav>ul>li>svg {
 
 }
 
-/* tickets & tasks */
+/* tickets & tasks (Last Section)*/
 #last{
     width: 100%;
     display: flex;
@@ -328,8 +332,53 @@ nav>ul>li>svg {
     height: 336px;
 }
 
+#last .card-header{  
+    height: 336px;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 8px;
+
+    align-items: flex-start;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00000000;
+    border: 0;
+    padding: 0;
+}
+
 #last .card-body{  
     height: 336px;
     border-width: 1px;
     border-radius: 8px;
+
+    align-items: flex-start;
+    margin: 16px 16px 0px 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body a {
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    text-decoration: none;
+    color: #3751FF;
+}
+
+.card-body span {
+    font-weight: 600;
+    color: #4B506D;
+}
+
+
+/* Don't mind me, remove please! */
+* {
+    outline: 1px dashed rgba(255, 0, 0, 0.336) ;
 }
