@@ -246,6 +246,7 @@ nav>ul>li>svg {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    width: 100%;
 }
 #graphinfo{
     height: 70px;
@@ -387,13 +388,17 @@ nav>ul>li>svg {
     margin: 0;
 }
 
-.ticket-name {
+.ticket-name, .form-check label {
     font-family: Muli;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
     margin: 0;
+}
+
+.deactivated-task {
+    color: #C5C7CD;
 }
 
 #last li {
@@ -405,12 +410,59 @@ nav>ul>li>svg {
     align-items: center;
 }
 
+#last input {
+    border-radius: 1rem;
+    border: 2px solid #C5C7CD;
+    height: 20px;
+    width: 20px;
+}
+
+#last input:checked {
+    background-color: #3751FF;
+    border: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='9' viewBox='0 0 12 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 5L3.92929 7.92929C3.96834 7.96834 4.03166 7.96834 4.07071 7.92929L11 1' stroke='white' stroke-width='1.7' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 12px auto;
+    background-position-y: 0.4rem;
+}
+
+#last label {
+    padding-left: 0.5rem;
+}
+
 #last li:last-child {
     border-radius: 8px;
 }
 
 #last .list-group {
     border-top: 0;
+}
+
+.list-group-item span {
+    font-family: Muli;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+.text-bg-warning {
+    background: #FEC400 !important;
+}
+
+.text-bg-success {
+    background: #29CC97 !important; 
+}
+
+.text-bg-secondary {
+    background: #F0F1F7 !important;
+    color: #9FA2B4 !important;
 }
 
 /* Don't mind me, remove please! */
