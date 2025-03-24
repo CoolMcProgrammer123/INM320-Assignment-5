@@ -425,7 +425,7 @@ nav>ul>li>svg {
     background-image: url("data:image/svg+xml,%3Csvg width='12' height='9' viewBox='0 0 12 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 5L3.92929 7.92929C3.96834 7.96834 4.03166 7.96834 4.07071 7.92929L11 1' stroke='white' stroke-width='1.7' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: 12px auto;
-    background-position-y: 0.3rem;
+    background-position-y: 0.35rem;
 }
 
 #last label {
